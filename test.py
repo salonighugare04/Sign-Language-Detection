@@ -15,8 +15,8 @@ if not cap.isOpened():
 detector = HandDetector(maxHands=1)
 
 # Use relative path or environment variable for model files
-model_path = os.path.join("Models", "keras_model.h5")
-labels_path = os.path.join("Models", "labels.txt")
+model_path = os.path.join("Models", "keras_model.h5")        #put the file path of your own
+labels_path = os.path.join("Models", "labels.txt")            #put the file path of your own
 
 if not os.path.exists(model_path) or not os.path.exists(labels_path):
     print("Error: Model files not found")
