@@ -1,0 +1,13 @@
+0 DoYou
+1 Hello
+2 ILoveYou
+3 No
+4 Listening
+5 ThankYou
+6 toTalk
+7 Want
+8 Yes
+9 GoodBye
+10 Sorry
+11 Need
+12 I
