@@ -11,7 +11,7 @@ offset = 20
 imgSize = 300
 counter = 0
 
-folder = r"C:\Users\salon\PycharmProjects\MiniSign\Data\When"  # Modified folder name
+folder = r"C:\Users\salon\PycharmProjects\MiniSign\Data\When"  #put the location of the folderproperly
 os.makedirs(folder, exist_ok=True)
 
 while True:
