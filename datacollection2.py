@@ -11,7 +11,7 @@ offset = 20
 imgSize = 300
 counter = 0
 
-folder = r"C:\Users\salon\PycharmProjects\MiniSign\Data\When"  #put the location of the folderproperly
+folder = r"C:\Users\salon\PycharmProjects\MiniSign\Data\When"  # Path of folder to save collected data
 os.makedirs(folder, exist_ok=True)
 
 while True:
