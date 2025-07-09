@@ -12,9 +12,9 @@ STABLE_SIGN_DURATION = 1.0  # Seconds a sign must be stable before adding to sen
 
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
-classifier = Classifier("Models1/keras_model.h5 ", "Models1/labels.txt")
+classifier = Classifier("Models1/keras_model.h5 ", "Models1/labels.txt")      #put the model file path of your own
 
-labels = ["DoYou", "Hello", "ILoveYou", "No", "Listening", "Please", "ThankYou", "toTalk", "Want", "Yes"]
+labels = ["DoYou", "Hello", "ILoveYou", "No", "Listening", "Please", "ThankYou", "toTalk", "Want", "Yes"]  
 
 
 sentence = ""
